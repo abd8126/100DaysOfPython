@@ -1,4 +1,4 @@
-bill = float(input())
-tip = 12
-bill_per_person = (bill / 5 ) * (tip / 100 + 1)
-print(".2f"%bill_per_person)
+bill_value=150
+tip_per=12
+per_head=(150/5)*(1+(tip_per)/100)
+print('A SINGLE PERSON HAVE TO PAY ABOUT $'+"{0:.2f}".format(per_head))
