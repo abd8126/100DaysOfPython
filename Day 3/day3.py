@@ -1,4 +1,4 @@
-height = input("Enter height in metres : ")
+height = input("Enter height in mtr.: ")
 weight = input("Enter weight in kgs : ")
 
 try:
