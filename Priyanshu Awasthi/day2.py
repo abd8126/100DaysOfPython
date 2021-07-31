@@ -1,4 +1,4 @@
-a= float(input())
-if a == 150:
-    totalbill=(a/5)*1.12
-print("%.2f"%totalbill)
+bill = float(input())
+tip = 12
+perpersonbill = (bill / 5 ) * (tip / 100 + 1)
+print("%.2f"%perpersonbill)
