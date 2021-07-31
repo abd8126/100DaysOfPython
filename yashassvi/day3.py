@@ -2,6 +2,7 @@ print("Welcome to the BMI Calculator")
 w=float((input("Please enter your weight in kilograms: ")))
 h=float((input("Please enter your height in metres: ")))
 bmi=w/(h*h)
+print(bmi)
 if (bmi < 18.5):
     print("You come under the category of 'Underweight'.\nYou're adviced to increase your caorie intake.")
 elif (bmi >= 18.5) and (bmi < 25):
