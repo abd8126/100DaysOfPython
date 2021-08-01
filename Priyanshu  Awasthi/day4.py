@@ -15,5 +15,4 @@ elif pmove == 'scissors' and cmove == 'paper' :
 else:
     print("The computer won. Better luck next time")
 
-S
-        
+     
