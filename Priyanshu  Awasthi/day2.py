@@ -1,6 +1,4 @@
-n=float(input())
-if n == 150:
-    c=150+0.12*150
-    c=c/5
-    #c=c/5
-    print("{0:.2f}".format(c))
+TotalBill = float(input())
+tip = 12
+per_personBill = (TotalBill / 5 ) * (tip / 100 + 1)
+print("%.2f"%per_personBill)
