@@ -1,8 +1,25 @@
 import random
+import array
 import string
+length_pass = 12
+digits= ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+lower_char = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h','i', 'j', 'k', 'm', 'n', 'o', 'p', 'q','r', 's', 't', 'u', 'v', 'w', 'x', 'y','z']
 
+upper_case = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H','I', 'J', 'K', 'M', 'N', 'O', 'p', 'Q','R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y','Z']
 
-length= int(input("Enter the length of the password "))
-collection = string.ascii_lowercase +string.ascii_letters+string.ascii_uppercase+string.punctuation
-password = ''.join(random.choice(collection) for i in range(length))
-print(f"Random password of length {length} is {password}")
+special_char = ['@', '#', '$', '%', '=', ':', '?', '.', '/', '|', '~', '>','*', '(', ')', '<']
+combinations = digits + upper_case + special_char  
+Digits = random.choice(digits)
+upperChar = random.choice(upper_case)                              
+lowerChar = random.choice(lower_char)
+specialChar= random.choice(special_char)
+temp = Digits + upperChar + lowerChar + specialChar                  
+for i in range(length_pass - 4):
+	temp = temp + random.choice(combinations)                               
+	temp_list = array.array('u',temp)                                      
+	random.shuffle(temp_list)
+
+password = ""
+for i in temp_list:                                                         
+		password = password + i
+print(password)                    
