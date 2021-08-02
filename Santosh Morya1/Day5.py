@@ -19,7 +19,7 @@ for i in range(length_pass - 4):
 	temp_list = array.array('u',temp)                                      
 	random.shuffle(temp_list)
 
-password = ""
+random_password = ""
 for i in temp_list:                                                         
-		password = password + i
-print(password)                    
+		random_password += i
+print(random_password)                    
