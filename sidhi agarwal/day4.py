@@ -9,14 +9,14 @@ while True:
             print("computer chose:"+c_choice+"  computer wins")
         elif c_choice=="scissor":
             print("computer chose:"+c_choice+"  you win")
-    if u_choice=="paper":
+    elif u_choice=="paper":
         choice.remove("paper")
         c_choice=random.choice(choice)
         if c_choice=="rock":
             print("computer chose:"+c_choice+"  you win")
         elif c_choice=="scissor":
             print("computer chose:"+c_choice+"  computer win")
-    if u_choice=="scissor":
+    elif u_choice=="scissor":
         choice.remove("scissor")
         c_choice=random.choice(choice)
         if c_choice=="rock":
