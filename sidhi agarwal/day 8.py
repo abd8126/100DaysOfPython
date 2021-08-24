@@ -1,0 +1,5 @@
+h=int(input("enter the height of the wall"))
+w=int(input("enter the width of the wall"))
+c=int(input("enter the coverage per pan "))
+number_of_cans=round(h*w/c)
+print(number_of_cans)
