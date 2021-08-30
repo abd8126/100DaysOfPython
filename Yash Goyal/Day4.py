@@ -9,19 +9,19 @@ while True:
     print(i)
     if i == 'r':
         if user == 'p':
-            print("HURRAH..! YOU WON")
+            print("Hurrah..! You Won")
         else:
-            print("YOU LOST...BETTER LUCK NEXT TIME")
+            print("You Lost.. Better luck next time")
     elif i == 'p':
         if user == 's':
-            print("YOU WON...")
+            print("You Won")
         else:
-            print("YOU LOST...BETTER LUCK NEXT TIME")
+            print("You Lost.. Better luck next time")
     elif i == 's':
         if user == 'r':
-            print("YOU WON...")
+            print("You Won")
         else:
-            print("YOU LOST...BETTER LUCK NEXT TIME")
+            print("You lost.. Better luck next time")
     w = input("Do you want to play again..? Press Enter Key else N:\n ").lower()
     if w == 'n':
         break
