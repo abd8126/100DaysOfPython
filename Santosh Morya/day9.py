@@ -11,5 +11,5 @@ for students in student_scores:
   else:
     student_grades[students]="Fail"
 
-print(student_grades)
+
 
