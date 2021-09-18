@@ -32,7 +32,7 @@ I <a href="#">pledge</a> to complete this 100 days of coding challenge.
 
 - <b>Day 10</b> - [Function Return Values and the Calculator Project]()
 
-- <b>Day 11</b> - [Blackjack Capstone Project]()
+- <b>Day 11</b> - [Python Lambda Function , Map function]()
 
 - <b>Day 12</b> - [Scope and Namespacing in Python]()
 
