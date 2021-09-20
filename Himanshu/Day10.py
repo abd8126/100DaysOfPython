@@ -15,11 +15,11 @@ def isprime(p):
         r = checkPrime(i)
         if r == 1 and i!= 2:
             ans.append(i)
-    print(ans)
+    return ans
 
 
 l = list(map(int,input().split()))
-isprime(l)
+print(isprime(l))
 
 
 ### 2. Write a Python function to check whether a number is perfect or not.
