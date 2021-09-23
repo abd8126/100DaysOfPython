@@ -1,5 +1,5 @@
 student_scores = {"Harry": 81,"Ron": 78,"Hermione": 99, "Draco": 74,"Neville": 62,}
-student_grades = {}
+student_grades = dict()
 for students in student_scores:
   score = student_scores[students]
   if score > 90:
@@ -10,6 +10,8 @@ for students in student_scores:
     student_grades[students]="Acceptable"
   else:
     student_grades[students]="Fail"
+
+
 
 
 
